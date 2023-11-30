@@ -14,7 +14,7 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: white;
     color: black;
-    margin: 5px;
+    margin: 10px;
 }
 .Clay_molding {
     background: url(Assets/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg) no-repeat center;
@@ -67,23 +67,34 @@ ul {
 
   #logo-pot {
     display: flex;
-    float: center;
     width: 40px;
     height: 40px;
   }
   #logo-text {
     display: flex;
-    float: center;
     font-size: 150%;
   }
 
   .About_Us_Container {
     display: flex;
   }
-  .h2-class {
+  h2 {
     border-bottom: black;
   }
+  .Products_Container {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    flex-wrap: wrap;
+  }
 
+  .Mundo_Bowls {
+    display: flex;
+  }
+  .Natureza_Vase {
+    display: flex;
+  }
+/* sss */
 header {
     
 }
